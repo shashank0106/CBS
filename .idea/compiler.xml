@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cbscommons" />
+        <module name="cbsconfig" />
+        <module name="cbslogin" />
         <module name="cbsaccounts" />
+        <module name="cbscommons" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +17,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cbsaccounts" options="-parameters" />
       <module name="cbscommons" options="-parameters" />
+      <module name="cbsconfig" options="-parameters" />
+      <module name="cbslogin" options="-parameters" />
     </option>
   </component>
 </project>

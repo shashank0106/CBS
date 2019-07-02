@@ -2,6 +2,7 @@ package org.cbs.accounts.model;
 
 import lombok.Data;
 import org.cbs.enums.AccountStatusE;
+import org.cbs.enums.AccountTypeE;
 
 import java.math.BigDecimal;
 
@@ -10,7 +11,7 @@ public class Account {
 
     private String accountNumber;
     private BigDecimal balance;
-    private String accountType;
-    private AccountStatusE accountStatusE;
+    private String accountTypeE;
+    private String accountStatusE;
 
 }

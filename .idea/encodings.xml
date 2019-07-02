@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cbs-accounts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cbs-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cbs-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cbs-login" charset="UTF-8" />
   </component>
 </project>
